@@ -3,6 +3,6 @@
 
 Simple Matlab Script which searchs for a pattern within a picture using the corr2 function. 
 
-Corr2 computes the correlation coefficient between A and B , where A and B are matrices or vectors of the same size
+Corr2 computes the correlation coefficient (in %) between Image A and B. 
 
 Required toolboxes: Image Processing Toolbox
