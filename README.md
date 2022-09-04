@@ -6,3 +6,6 @@ Simple Matlab Script which recognizes a pattern within a picture using the corr2
 Corr2 computes the 2D correlation coefficient (in %) between Image A and B. 
 
 Required: Image Processing Toolbox
+
+
+
