@@ -1,4 +1,4 @@
-# CheckForPatternInImage
+# DetectPatternInImage
 ![image](https://user-images.githubusercontent.com/55065075/188312861-f0a08dee-336b-4419-89ff-6495b3b10457.png)
 
 In Matlab the Corr2 function computes the 2D correlation coefficient (R) between two Image A and B.
