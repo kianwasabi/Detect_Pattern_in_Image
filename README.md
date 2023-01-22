@@ -5,8 +5,7 @@ CheckForPatternInImage is a simple Matlab script to detect a pattern (A) in an i
 The correlation coefficient (R) is displayed in the command window.
 
 ## Built with:
-Matlab 
-Required: Image Processing Toolbox
+Matlab - Required: Image Processing Toolbox
 
 ## Author:
 Kian David Warias
