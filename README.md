@@ -1,5 +1,7 @@
 # Detect Pattern In Image
+CheckForPatternInImage.m is a simple Matlab script that detects a pattern (A) in an image (B) using the corr2 function.
 
+## Idea:
 The "corr2" function in matlab (R = corr2(A,B)) proves to be very useful for pattern recognition in image processing. <br>
 This function can be used to analyze two 2-dimensional images of the same size based on their similarity. <br>
 First, both images need to be converted to 𝑛 𝑥 𝑚 -sized arrays. 
@@ -14,19 +16,30 @@ According to the equation R lies between 0 and 1; Where R = 0 means that there i
 (see: <a href="https://www.mathworks.com/help/images/ref/corr2.html">[1]</a> & <a href="https://stackoverflow.com/questions/27343283/explaining-corr2-function-in-matlab">[2]</a>)
 
 ## Concept:
-First, the script converts the imported image (A) and pattern (B) from RGB to GRAY-scale images. 
-Second, it is checked whether image (A) is larger or at least quals the size of pattern (B).
-If the size check of (A) and (B) results in a
-At the end, a red rectangle is placed at the  and the correlation coefficient (R) is displayed in the command window.
+The following flowchart briefly shows the structure of the Matlab script.<br>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221420977-b0ccaa78-8c78-4780-bd61-e4bc802faca7.png" height="auto" width="400"></a>
 
 ## Result: 
+<ins>Case 1 - correct pattern recognition:</ins> <br>
 <a href="url"><img src="https://user-images.githubusercontent.com/55065075/188312861-f0a08dee-336b-4419-89ff-6495b3b10457.png" height="auto" width="400" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221421492-b3102e71-e599-4bbc-81cb-331eab83e52f.png" height="auto" width="450" ></a>
+<br>
+<ins>Case 2 - correct pattern recognition with modified pattern:</ins> <br>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221421616-a05c0964-52d8-40b8-9add-39b51c49bc42.png" height="auto" width="400" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221422510-2e7a512f-b206-4cb9-a6d5-c9d28b02d92c.png" height="auto" width="450" ></a>
+<br>
+<ins>Case 3 - misleading pattern recognition:</ins> <br>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221421778-5aafafe1-6481-44a6-a0a0-26484743dd5d.png" height="auto" width="400" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221421808-2188f627-40fc-4e80-887f-fb57008ea85c.png" height="auto" width="450" ></a>
+<br>
+<ins>Case 4 - incorrect pattern recognition:</ins> <br>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221422027-c1bdbded-c8fe-4ff1-bbf5-a4c4d5829a24.png" height="auto" width="400" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/55065075/221422031-75081a1c-5a2c-4053-a471-7c45618d4288.png" height="auto" width="450" ></a>
+<br>
 <br></br>
-In Matlab the Corr2 function computes the 2D correlation coefficient (R) between two Images.
-CheckForPatternInImage.m is a simple Matlab script that detects a pattern (A) in an image (B) using the corr2 function.
 
 ## Project Status: 
-Done.
+Not perfect, but done.
 
 ## Built with:
 Matlab - Required: Image Processing Toolbox
