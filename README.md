@@ -42,8 +42,4 @@ The following flowchart briefly shows the structure of the Matlab script.<br>
 Not perfect, but done.
 
 ## Built with:
-Matlab - Required: Image Processing Toolbox
-
-## Author:
-Kian David Warias
-
+Matlab - Required: Image Processing
